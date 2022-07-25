@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test_Testng.Test_2">
+        <methods>
+          <include name="BT"/>
+        </methods>
+      </class> <!-- Test_Testng.Test_2 -->
+      <class name="Test_Testng.Test_3">
+        <methods>
+          <include name="BM"/>
+          <include name="AM"/>
+          <include name="Test_1"/>
+        </methods>
+      </class> <!-- Test_Testng.Test_3 -->
+      <class name="Test_Testng.Test_5">
+        <methods>
+          <include name="Z"/>
+          <include name="A"/>
+          <include name="S"/>
+          <include name="R"/>
+          <include name="G"/>
+        </methods>
+      </class> <!-- Test_Testng.Test_5 -->
+      <class name="Test_Testng.Test_1">
+        <methods>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="test_3"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="test_1"/>
+          <include name="test_2"/>
+          <include name="AT"/>
+        </methods>
+      </class> <!-- Test_Testng.Test_1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
